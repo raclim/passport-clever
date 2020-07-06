@@ -1,0 +1,25 @@
+{
+  "name": "@raclim/passport-clever",
+  "version": "1.0.0",
+  "description": "Clever authentication strategy for Passport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raclim/passport-clever.git"
+  },
+  "keywords": [
+    "passport",
+    "clever",
+    "oauth",
+    "oauth2"
+  ],
+  "author": "Rachel Lim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raclim/passport-clever/issues"
+  },
+  "homepage": "https://github.com/raclim/passport-clever#readme"
+}
