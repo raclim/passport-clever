@@ -8,9 +8,9 @@ Install the package via npm: `npm install passport-clever`
 ## Usage 
 Initialize the strategy as follows: 
 
-    ```
-    const AppleStrategy = require('passport-apple');
-    passport.use(new AppleStrategy({
+    ```js
+    const CleverStrategy = require('passport-clever');
+    passport.use(new CleverStrategy({
         clientID: "",
         clientSecret: "",
         callbackURL: "",
