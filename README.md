@@ -7,7 +7,9 @@ Install the package via npm: `npm install passport-clever`
 
 ## Usage 
 Initialize the strategy as follows: 
-    `const AppleStrategy = require('passport-apple');
+
+    ```javascript
+    const AppleStrategy = require('passport-apple');
     passport.use(new AppleStrategy({
         clientID: "",
         clientSecret: "",
@@ -15,7 +17,8 @@ Initialize the strategy as follows:
         passReqToCallback: true
     }, function(req, accessToken, refreshToken, decodedIdToken, profile, cb) {
     cb(null, accessToken);
-    }));`
+    }));
+    ```
 
 Add the login route: 
 `app.get("/login", passport.authenticate('clever'));`
