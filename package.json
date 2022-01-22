@@ -24,7 +24,7 @@
   "homepage": "https://github.com/raclim/passport-clever#readme",
   "dependencies": {
     "js-base64": "^3.6.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.1.1",
     "passport-oauth2": "^1.5.0",
     "querystring": "^0.2.1"
   }
